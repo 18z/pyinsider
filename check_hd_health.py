@@ -25,5 +25,5 @@ if  commands.getoutput(cmd) == result :
 	collection.insert(item)
 else:
 	print "better watch out"
-	item = { "hd": hd, "status" : "bad" }
+	item = { "hd": hd, "status" : "better watch out" }
         collection.insert(item)
